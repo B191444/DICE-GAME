@@ -1,0 +1,125 @@
+*{
+  font-family:Sans-Serif;
+}
+.hidden{
+  display:none;
+}
+#ruleContainer{
+  border:1px solid black;
+  padding:10px;
+  margin:10px;
+  border-radius: 5px;
+}
+button{
+  font-size:20px;
+  cursor:pointer;
+  padding:13px 20px;
+  background-color: white;
+  color:black;
+  border:1px solid black;
+  border-radius:5px;
+  transition: 0.3s ease-out;
+}
+button.number:disabled {
+ opacity: 1;                     /* Prevent faded look */
+  color: inherit;                 /* Keep the original text color */
+  background-color: inherit;      /* Keep the original background color */
+  cursor: not-allowed;            /* Optional: show it’s unclickable */
+  pointer-events: none;
+}
+button.number.fixed{
+  background-color: black;
+  color:white;
+}
+/*.navcontainer button{*/
+/*  padding:13px 20px;*/
+/*  background-color: white;*/
+/*  color:black;*/
+/*  border:1px solid black;*/
+/*  border-radius:5px;*/
+/*  transition: 0.3s ease-out;*/
+/*}*/
+.navcontainer button:hover{
+  color:white;
+  background-color: black;
+  border:none;
+}
+/*game.html*/
+.reset{
+  border:1px solid black;
+  border-radius: 5px;
+  padding:10px;
+  color:black;
+  background-color: white;
+  transition: 0.3s ease-out;
+}
+.reset:hover{
+  border:none;
+  background-color: black;
+  color:white;
+}
+.rules{
+  border:none;
+  background-color: black;
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  margin-top:10px;
+   transition: 0.3s ease-out;
+}
+.rules:hover{
+  border:none;
+  background-color:white;
+  color:black;
+  border:1px solid black;
+}
+.game{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+}
+.gamebuttons{
+  display:flex;
+  flex-direction: column;
+}
+
+.navcontainer{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:40px;
+}
+.navcontainer p{
+  font-size:25px;
+  font-weight:bold;
+}
+
+/*main page*/
+.main{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main img{
+  width:500px;
+  height:500px;
+}
+.titlecontainer h1{
+  font-weight:bold;
+  font-size:38px;
+}
+.playbtn{
+  padding:18px;
+  border:none;
+  font-size:20px;
+  background-color: black;
+  color:white;
+  border-radius:5px;
+  transition:0.3s ease-out;
+}
+.playbtn:hover{
+  color:black;
+  background-color: white;
+  border:1px solid black;
+}
