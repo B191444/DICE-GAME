@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="navcontainer">
+      <div class="scorecontainer">
+        <h1 class="scoreValue">0</h1>
+        <p>Total Score</p>
+      </div>
+      <div class="buttons">
+        <button class="number">1</button>
+        <button class="number">2</button>
+        <button class="number">3</button>
+        <button class="number">4</button>
+        <button class="number">5</button>
+        <button class="number">6</button>
+      </div>
+      
+    </div>
+    <div class="game">
+      <img id="diceImg" src="https://uploads.onecompiler.io/43txguwyq/43txkvewu/dice_1.png" alt="game">
+      <div class="gamebuttons">
+        <p class="roll">Click on Dice to Roll</p>
+        <button class="reset">Reset Game</button>
+        <button class="rules">Show Rules</button>
+      </div>
+    </div>
+    <div id="ruleContainer" class="hidden">
+      <h4>How To Play Dice Game</h4>
+      <p>The player selects a number they think the dice will roll.</p>
+      <p>After selecting the number, the player clicks on the dice to roll it.</p>
+      <p>the player earns points equal to the dice number.</p>
+      <p>After each roll,player can choose a number,roll again to continue playing.</p>
+    </div>
+    
+    
+    <script type="module" src="script.js"></script>
+    <script type="module" src="redux.js"></script>
+      
+  </body>
+</html>
